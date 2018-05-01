@@ -55,9 +55,8 @@ def sum_array (array)
   result
 end
 
-def sum_array (array)
+def add_s (array)
   result = []
   array.each {|word| result << word if word.start_with? ("a")}
   result
 end
-
