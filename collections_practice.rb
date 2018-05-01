@@ -54,5 +54,5 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.collect.with_index {|var, idx| var + "s" if idx != 2}
+  array.collect.with_index {|var, idx| var + "s" if idx != 1}
 end
