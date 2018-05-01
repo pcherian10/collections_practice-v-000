@@ -11,11 +11,9 @@ def sort_array_char_count (array)
 end
 
 def swap_elements (array)
+  second, third = 0, 0
   array.each.with_index do |el, i|
-    if(i == 1)
-      array[1] = array[2]
-      array[2] = array[1]
-    end
+    third =
   end
   return array
 end
