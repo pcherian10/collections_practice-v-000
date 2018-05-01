@@ -32,8 +32,7 @@ def kesha_maker (array)
   array.each do |el|
    changed_word = []
     el = el.split("")
-      changed_word = el.map.with_index {|letter, idx| idx == 2 ? "$" : letter}
-      changed_word = changed_word.join
+      changed_word = (el.map.with_index {|letter, idx| idx == 2 ? "$" : letter}).join
     result << changed_word
  end
  return result
