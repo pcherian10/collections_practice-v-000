@@ -50,16 +50,7 @@ def sum_array (array)
 end
 
 def sum_array (array)
-  sum = 0
-  array.each do |el|
-    el = el.split("")
-    if(el.all? {|number_check| (0..9).include?(number_check)})
-        sum += el
-    end
-   #el.each do |inner_el|
-      #inner_el.all? {|check_number| check_number  }
-  end
-  return sum
+  array.inject {|acc, el| acc + el}
 end
 
 def add_s (array)
