@@ -50,7 +50,7 @@ def sum_array (array)
 end
 
 def sum_array (array)
-  array.inject {|acc, el| acc + el}
+  array.inject
 end
 
 def add_s (array)
