@@ -12,9 +12,9 @@ end
 
 def swap_elements (array)
   second, third = 0, 0
-  array.each.with_index do |el, i|
-    second =
-    third = 
-  end
+  second = array [2]
+  third = array[1]
+  array[1] = second
+  array[2] = third
   return array
 end
