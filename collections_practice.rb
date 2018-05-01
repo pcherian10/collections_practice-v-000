@@ -37,4 +37,6 @@ def kesha_maker (array)
   result
 end
 
-def
+def find_a (array)
+
+end
