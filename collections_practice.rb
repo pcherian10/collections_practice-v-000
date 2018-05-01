@@ -13,7 +13,8 @@ end
 def swap_elements (array)
   second, third = 0, 0
   array.each.with_index do |el, i|
-    second = 
+    second =
+    third = 
   end
   return array
 end
