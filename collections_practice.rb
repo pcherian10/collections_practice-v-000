@@ -51,8 +51,10 @@ end
 
 def sum_array (array)
   sum = 0
-  array.each do |value|
-
+  array.each do |el|
+    el = el.split("")
+    el.each do |inner_el|
+      inner_el.all? {|check_number| check_number  }
   end
 end
 
