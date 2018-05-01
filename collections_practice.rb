@@ -28,5 +28,10 @@ def reverse_array (array)
 end
 
 def kesha_maker (array)
-
+  array.each do |el|
+   el  = el.split("")
+   el.each.with_index {|letter, idx| el = "$" if i == 2}
+   el.join
+ end
+ return el
 end
