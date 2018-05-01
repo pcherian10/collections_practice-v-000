@@ -50,9 +50,10 @@ def sum_array (array)
 end
 
 def sum_array (array)
-  result = []
-  array.each {|word| result << word if word.start_with? ("a")}
-  result
+  sum = 0
+  array.each do |value|
+
+  end
 end
 
 def add_s (array)
