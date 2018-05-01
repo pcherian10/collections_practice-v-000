@@ -13,8 +13,8 @@ end
 def swap_elements (array)
   array.each.with_index do |el, i|
     if(i == 2)
-      array[1] == array[2]
-      array[2] == array[1]
+      array[1] = array[2]
+      array[2] = array[1]
     end
   end
   return array
